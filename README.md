@@ -51,5 +51,4 @@ To completely stop the daemon, remove the service, and clean up installed files:
 
 ```bash
 cd pccooler-ds360-linux && bash uninstall.sh
-
 ```
