@@ -3,8 +3,6 @@
 🇺🇸 Native Linux display driver and systemd daemon for PCCooler DS360 AIO liquid cooler.  
 *🇷🇺 Драйвер и systemd-демон для управления экраном СЖО PCCooler DS360 под Linux.*
 
-```markdown
-
 ## 🚀 Quick Installation & Autostart / Быстрая установка
 
 Run this one-liner in your terminal to clone, install, and enable autostart on boot:  
@@ -12,7 +10,6 @@ Run this one-liner in your terminal to clone, install, and enable autostart on b
 
 ```bash
 git clone https://github.com/R1k0rG/pccooler-ds360-linux.git && cd pccooler-ds360-linux && bash install.sh
-
 ```
 
 ---
@@ -22,21 +19,18 @@ git clone https://github.com/R1k0rG/pccooler-ds360-linux.git && cd pccooler-ds36
 * **Check status / Проверить статус:**
 ```bash
 sudo systemctl status pccooler-display.service
-
 ```
 
 
 * **Restart driver / Перезапустить:**
 ```bash
 sudo systemctl restart pccooler-display.service
-
 ```
 
 
 * **Stop driver / Остановить:**
 ```bash
 sudo systemctl stop pccooler-display.service
-
 ```
 
 
