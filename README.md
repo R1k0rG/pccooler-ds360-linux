@@ -1,7 +1,8 @@
 # PCCooler DS360 Display Driver for Linux 🐧
-
+<img width="2560" height="1920" alt="work" src="https://github.com/user-attachments/assets/27ef0440-0e34-4754-9b04-f9bf188f1c07" />
 🇺🇸 Native Linux display driver and systemd daemon for PCCooler DS360 AIO liquid cooler.  
-*🇷🇺 Драйвер и systemd-демон для управления экраном СЖО PCCooler DS360 под Linux.*
+
+🇷🇺 Драйвер и systemd-демон для управления экраном СЖО PCCooler DS360 под Linux.
 
 ## 🚀 Quick Installation & Autostart / Быстрая установка
 
