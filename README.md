@@ -6,6 +6,38 @@
 
 ## 🚀 Quick Installation & Autostart / Быстрая установка
 
+The driver requires:
+```bash
+  1. Python3
+  
+  2. hidapi Python bindings
+  
+  3. psutil
+  
+  4. systemd
+  
+  5. USB HID access to the PCCooler DS360 display
+```
+
+Install dependencies
+
+Arch Linux
+```bash
+sudo pacman -S --needed python python-hidapi python-psutil
+```
+Debian / Ubuntu
+```bash
+sudo apt update
+```
+```bash
+sudo apt install python3 python3-hid python3-psutil
+```
+Fedora
+```bash
+sudo dnf install python3 python3-hid python3-psutil
+```
+Package availability and names may vary by distribution and release. If a package is unavailable, consult your distribution's package repository for its Python hidapi bindings.
+
 Run this one-liner in your terminal to clone, install, and enable autostart on boot:  
 Вставь эту строчку в терминал, чтобы автоматически клонировать, установить и добавить драйвер в автозагрузку:
 
