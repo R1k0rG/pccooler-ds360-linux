@@ -7,17 +7,12 @@
 ## 🚀 Quick Installation & Autostart / Быстрая установка
 
 The driver requires:
-```bash
-  1. Python3
-  
-  2. hidapi Python bindings
-  
-  3. psutil
-  
-  4. systemd
-  
-  5. USB HID access to the PCCooler DS360 display
-```
+
+- Python 3
+- Python hidapi bindings
+- psutil
+- systemd
+- USB HID access to the PCCooler DS360 display
 
 Install dependencies
 
